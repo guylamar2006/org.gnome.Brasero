@@ -131,7 +131,7 @@ modules:
           url-query: .assets[] | select(.name=="schily-" + $version +  ".tar.bz2")
             | .browser_download_url
       - type: patch
-        path: patch/use-app-dir.patch
+        path: patch/cdrtools-use-app-dir.patch
 
   - name: cdrdao
     sources:

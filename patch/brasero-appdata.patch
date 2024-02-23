@@ -1,18 +1,18 @@
-From 655905d691f30b1db8d5be9042bbc6fb313c234b Mon Sep 17 00:00:00 2001
+From d0a4ab9978b2a967492af2294629159a069e2784 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Sabri=20=C3=9Cnal?= <libreajans@gmail.com>
 Date: Fri, 15 Dec 2023 13:38:54 +0300
 Subject: [PATCH] appdata: Update appdata
 
-Use modern appdata specs
+Use modern appdata specs and update screenshots
 ---
- data/brasero.appdata.xml.in | 41 ++++++++++++++++++++++++-------------
- 1 file changed, 27 insertions(+), 14 deletions(-)
+ data/brasero.appdata.xml.in | 42 ++++++++++++++++++++++++-------------
+ 1 file changed, 28 insertions(+), 14 deletions(-)
 
 diff --git a/data/brasero.appdata.xml.in b/data/brasero.appdata.xml.in
-index e7caf98fe..da2e8da37 100644
+index e7caf98fe..7cecb0d7e 100644
 --- a/data/brasero.appdata.xml.in
 +++ b/data/brasero.appdata.xml.in
-@@ -1,27 +1,40 @@
+@@ -1,27 +1,41 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<application>
 -  <id type="desktop">brasero.desktop</id>
@@ -49,9 +49,10 @@ index e7caf98fe..da2e8da37 100644
 -    <screenshot type="default">https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=copy-disc.png</screenshot>
 -    <screenshot>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=audio-disc.png</screenshot>
 -    <screenshot>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=data-project.png</screenshot>
-+    <screenshot type="default"><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=copy-disc.png</image></screenshot>
++    <screenshot type="default"><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=highlight3-figure.png</image></screenshot>
 +    <screenshot><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=audio-disc.png</image></screenshot>
 +    <screenshot><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=data-project.png</image></screenshot>
++    <screenshot><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=copy-disc.png</image></screenshot>
    </screenshots>
 -  <url type="homepage">https://wiki.gnome.org/Apps/Brasero</url>
 -  <updatecontact>brasero-list@gnome.org</updatecontact>
@@ -68,18 +69,5 @@ index e7caf98fe..da2e8da37 100644
 +  </releases>
 +</component>
 -- 
+GitLab
 
-https://gitlab.gnome.org/GNOME/brasero/-/merge_requests/25#note_2019002
-diff --git a/data/brasero.appdata.xml.in b/data/brasero.appdata.xml.in
-index da2e8da3..8ea00178 100644
---- a/data/brasero.appdata.xml.in
-+++ b/data/brasero.appdata.xml.in
-@@ -24,7 +24,7 @@
-   <url type="vcs-browser">https://gitlab.gnome.org/GNOME/brasero/</url>
-   <url type="translate">https://l10n.gnome.org/module/brasero/</url>
-   <screenshots>
--    <screenshot type="default"><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=copy-disc.png</image></screenshot>
-+    <screenshot type="default"><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=highlight3-figure.png</image></screenshot>
-     <screenshot><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=audio-disc.png</image></screenshot>
-     <screenshot><image>https://wiki.gnome.org/Apps/Brasero?action=AttachFile&amp;do=get&amp;target=data-project.png</image></screenshot>
-   </screenshots>
