@@ -122,8 +122,8 @@ modules:
         - INS_BASE: ${FLATPAK_DEST}
     sources:
       - type: archive
-        url: https://codeberg.org/schilytools/schilytools/releases/download/2023-09-28/schily-2023-09-28.tar.bz2
-        sha512: 47b201f517771da55a192f913eda5221b3dda3d9621a4e7958fae7d066c10d96d5bd4f28647920c58ff714b0f642b8045f0c825d4340c13745533aa05675901c
+        url: https://codeberg.org/schilytools/schilytools/releases/download/2024-03-21/schily-2024-03-21.tar.bz2
+        sha512: 5a9391e2795edcb6776a4a9828abadc1d7cbf014d603bab5dab942d9263eca1a924c16fcc624edf77030a93966b4e6ff926b65d27fe365b5e833cae071550e9b
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/schilytools/schilytools/releases/latest
