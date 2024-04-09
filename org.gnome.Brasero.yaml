@@ -186,6 +186,7 @@ modules:
         paths:
           - patch/dvd+rw-tools-glibc-2.28.patch
           - patch/dvd+rw-tools-includes.patch
+          - patch/dvd+rw-tools-wctomb.patch
 
   - name: cdrkit
     buildsystem: cmake-ninja
