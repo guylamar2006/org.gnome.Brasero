@@ -1,0 +1,13 @@
+Author: Daniel Schepler <schepler@math.unipd.it>
+Description: Add missing include in transport.hxx, fixes FTBFS with gcc-4.2 and gcc-4.3 (Closes: #455276, #456551).
+
+--- a/transport.hxx
++++ b/transport.hxx
+@@ -16,6 +16,7 @@
+ #include <fcntl.h>
+ #include <poll.h>
+ #include <sys/time.h>
++#include <limits.h>
+ 
+ inline long getmsecs()
+ { struct timeval tv;
