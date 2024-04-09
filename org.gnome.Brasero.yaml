@@ -176,8 +176,8 @@ modules:
           - --with-threads
         sources:
           - type: archive
-            url: https://imagemagick.org/archive/ImageMagick-7.1.1-29.tar.gz
-            sha512: eb8ca56165340876fcbf2c0b888cb11acd3f1a51581d9d22ca3802c02f2bbaf0ef158d8bf902c94b2432cd0c2c7b9c15d758cfcd520f568136c962070a185286
+            url: https://imagemagick.org/archive/ImageMagick-7.1.1-30.tar.gz
+            sha512: 6d65885aba5dc1ebefd19c57cc7c72406a8ac861a8aa851e8ed4ca3ebdb077ab30ede7c42081fb08779db22f975563bbe2f8fac33089cd92ba337d7c8e88d7c4
             x-checker-data:
               type: anitya
               project-id: 1372
