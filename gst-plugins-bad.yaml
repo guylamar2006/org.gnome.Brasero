@@ -182,14 +182,14 @@ config-opts:
   - -Ddoc=disabled
 sources:
   - type: archive
-    url: https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.22.10.tar.xz
-    sha512: f1e37503d33c3b7f1bcebff821ca59f87bb8e4324e9fff6c25b3cb255a5d95220c4f2a407cd875df614f551c39a0f2ceaff35ff88cf6295a2bfc7392ffbb7494
+    url: https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.22.11.tar.xz
+    sha512: cf1901b4d4459be253d00bb65fdf6c86920ad4f034d91bd278509dfcb4e1729fdbedc127aebcd4470cc24c841d94e4199ef60747576b881ded6afc6d41985c70
     x-checker-data:
       type: anitya
       project-id: 21849
       url-template: https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-$version.tar.xz
       versions:
-        '<': '1.23.0'
+        <: 1.23.0
 modules:
   - name: mjpegtools
     config-opts:
