@@ -249,4 +249,5 @@ modules:
       - type: patch
         paths:
           - patch/brasero-appdata.patch
+          - patch/brasero-iso-mime.patch
           - patch/brasero-vcdimager-version.patch
